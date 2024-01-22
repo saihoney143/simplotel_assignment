@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+body{
+    margin: 0px;
+}
+*{
+   box-sizing: border-box;
+}
+.main-Conatiner{
+    background-color: #36423c;
+    min-height: 100vh;
+    background-size: cover;
+    padding: 10px;
+}
+.nav-bar{
+    background-color: #678f79;
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu{
+    font-family: "times roman";
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.menubar-image{
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    margin-right: 50px;
+}
+.img-icon{
+    width: 35px;
+    height: 35px;
+    align-self: flex-end;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav-list{
+    width: 80%;
+    margin-left: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-icon-list{
+    width: 20%;
+    list-style-type: none;
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+.container2{
+    background-image: linear-gradient(to left,#32C8FC,#32FC87);
+    background-size: cover;
+    height:90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+}
+.box1{
+    width: 50vw;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-self: center;
+}
+.head{
+    font-family: "Roboto";
+    font-size: 42px;
+    font-weight: bold;
+    color: black;
+}
+.para{
+    font-family: "Roboto";
+    font-size:16px;
+    font-weight: 500;
+    color: rgb(34, 33, 33);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.button1{
+    color: white;
+    background-color:#678f79 ;
+    border-width: 0px;
+    font-family: 'Roboto';
+    font-size: 13px;
+    padding: 10px;
+    width: 150px;
+}
+.box2{
+    background-image: url("pexels-robin-stickel-70497.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    height:90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50vw;
+}
+
+.sub-container2{
+    background-image: linear-gradient(to left,#32C8FC,#32FC87);
+    min-height:50vh;
+    margin-top : 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    width:50vw;
+    display: flex;
+    flex-direction: row ;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.sub-box1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub-box2{
+    width: 50%;
+}
+.image-2{
+    height: 200px;
+    width: 270px;
+    padding: 10px;
+    margin: 0px;
+}
+.image-3{
+    height: 400px;
+    width: 270px;
+    padding: 10px;
+}
+.box4{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.para2{
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: rgb(37, 35, 35);
+}
+.head2{
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+.button2{
+    color: black;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    background-color: transparent;
+    border-width: 0px;
+}
+.button-img{
+    width: 20px;
+}
+.button-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sub-box3{
+    margin-right: 250px;
+    background-color: #47785e;
+    padding: 20px;
+}
+
+@media screen and (max-width:576px){
+    .nav-menu{
+        font-family: "Roboto";
+        font-size: 11px;
+        margin: 5px;
+    }
+    .menubar-image{
+        height: 22px;
+        width: 22px;
+        justify-content: center;
+        margin-right: 50px;
+    }
+    .box1{
+        width: 50vw;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-self: center;
+    }
+    .head{
+        font-size:20px;
+    }
+    .para{
+        font-size:11px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .button1{
+        font-size: 10px;
+        padding: 5px;
+        width: 100px;
+    }
+    .container2{
+        height:60vh;    
+    }
+    .box2{
+        height:60vh;
+    }
+    .box3{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .image-2{
+        height: 70px;
+        width: 80px;
+        padding: 5px;
+    }
+    .image-3{
+        height: 140px;
+        width: 80px;
+        padding: 5px;
+    }
+    .para2{
+        font-size: 11px;
+    }
+    .head2{
+        font-size:18px;
+    }
+    .button2{
+        font-size: 11px;
+    }
+    .button-img{
+        width: 10px;
+    }
+    .sub-box3 {
+        margin-right: 20px;
+        background-color: #47785e;
+        padding: 10px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px){
+    .nav-menu{
+        font-family: "Roboto";
+        font-size: 15px;
+        margin: 8px;
+    }
+    .menubar-image{
+        height: 24px;
+        width: 24px;
+        justify-content: center;
+        margin-right: 50px;
+    }
+    .box1{
+        width: 50vw;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-self: center;
+    }
+    .head{
+        font-size:22px;
+    }
+    .para{
+        font-size:13px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .button1{
+        font-size: 13px;
+        padding: 5px;
+        width: 100px;
+    }
+    .container2{
+        height:60vh;    
+    }
+    .box2{
+        height:60vh;
+    }
+    .box3{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .image-2{
+        height: 90px;
+        width: 100px;
+        padding: 7px;
+    }
+    .image-3{
+        height: 180px;
+        width: 100px;
+        padding: 7px;
+    }
+    .para2{
+        font-size: 13px;
+    }
+    .head2{
+        font-size:20px;
+    }
+    .button2{
+        font-size: 13px;
+    }
+    .button-img{
+        width: 10px;
+    }
+    .sub-box3 {
+        margin-right: 20px;
+        background-color: #47785e;
+        padding: 10px;
+    }
+}
+@media screen and (min-width:767px) and (max-width:992px){
+    .nav-menu{
+        font-family: "Roboto";
+        font-size: 16px;
+        margin: 9px;
+    }
+    .menubar-image{
+        height: 26px;
+        width: 26px;
+        justify-content: center;
+        margin-right: 50px;
+    }
+    .box1{
+        width: 50vw;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-self: center;
+    }
+    .head{
+        font-size:25px;
+    }
+    .para{
+        font-size:15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .button1{
+        font-size: 15px;
+        padding: 7px;
+        width: 110px;
+    }
+    .container2{
+        height:80vh;    
+    }
+    .box2{
+        height:80vh;
+    }
+    .box3{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .image-2{
+        height: 120px;
+        width: 140px;
+        padding: 7px;
+    }
+    .image-3{
+        height: 240px;
+        width: 140px;
+        padding: 7px;
+    }
+    .para2{
+        font-size: 15px;
+    }
+    .head2{
+        font-size:20px;
+    }
+    .button2{
+        font-size: 15px;
+    }
+    .button-img{
+        width: 10px;
+    }
+    .sub-box3 {
+        margin-right: 40px;
+        background-color: #47785e;
+        padding: 10px;
+    }
+}
+@media screen and (min-width:993px) and (max-width:1200px){
+    .nav-menu{
+        font-family: "Roboto";
+        font-size: 18px;
+        margin: 10px;
+    }
+    .menubar-image{
+        height: 28px;
+        width: 28px;
+        justify-content: center;
+        margin-right: 50px;
+    }
+    .box1{
+        width: 50vw;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-self: center;
+    }
+    .head{
+        font-size:28px;
+    }
+    .para{
+        font-size:18px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .button1{
+        font-size: 18px;
+        padding: 10px;
+        width: 130px;
+    }
+    .container2{
+        height:80vh;    
+    }
+    .box2{
+        height:80vh;
+    }
+    .box3{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .image-2{
+        height: 140px;
+        width: 180px;
+        padding: 10px;
+    }
+    .image-3{
+        height: 280px;
+        width: 180px;
+        padding: 10px;
+    }
+    .para2{
+        font-size: 18px;
+    }
+    .head2{
+        font-size:25px;
+    }
+    .button2{
+        font-size: 18px;
+    }
+    .button-img{
+        width: 13px;
+    }
+    .sub-box3 {
+        margin-right: 80px;
+        background-color: #47785e;
+        padding: 10px;
+    }
+}
